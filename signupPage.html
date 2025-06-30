@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bytesized&
+    <title>signup</title>
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+    <header>
+        <div class="logo"><strong>Eziz's Casino -> You gonna lose it all</strong></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="table.html">Gaming Table</a></li>
+                <li><a href="rules.html">Blackjack Rules</a></li>
+                <li><a href="signupPage.html"><button>Sign Up</button></a></li>   <!-- <li><a href="#">Contact Support</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <body class="bg-blue-100 w-full h-[150vh] flex justify-center items-center">
+        <div class="bg-yellow-50 p-6 rounded-xl shadow-lg w-96 border-4 border-blue-400">
+          <h2 class="text-3xl font-extrabold text-center text-blue-800 mb-4">🎲 Sign Up for Eziz's Casino</h2>
+          <form id="signupForm" class="space-y-3 text-sm">
+            <div>
+              <label for="fullName" class="block font-semibold">Full Name</label>
+              <input type="text" id="fullName" class="w-full p-2 border-2 border-blue-300 rounded">
+            </div>
+            <div>
+              <label for="username" class="block font-semibold">Username</label>
+              <input type="text" id="username" class="w-full p-2 border-2 border-blue-300 rounded">
+            </div>
+
+
+            <div>
+                <label for="password" class="block font-semibold">Password</label>
+                <div class="relative">
+                  <input type="password" id="password1" class="w-full p-2 border-2 border-blue-300 rounded" placeholder="Enter Password">
+                  <button type="button" id="togglePassword1" class="absolute inset-y-0 right-0 pr-2 -sm">Show</button>
+                </div>
+              </div>
+              <div>
+                <label for="password" class="block font-semibold">Confirm Password</label>
+                <div class="relative">
+                  <input type="password" id="password2" class="w-full p-2 border-2 border-blue-300 rounded" placeholder="Enter Password Again">
+                  <button type="button" id="togglePassword2" class="absolute inset-y-0 right-0 pr-2 -sm">Show</button>
+                </div>
+              </div>
+              
+              
+            <div>
+              <label for="age" class="block font-semibold">Age</label>
+              <input type="number" id="age" class="w-full p-2 border-2 border-blue-300 rounded">
+            </div>
+            <div>
+              <label for="birthdate" class="block font-semibold">Birthdate</label>
+              <input type="date" id="birthdate" class="w-full p-2 border-2 border-blue-300 rounded">
+            </div>
+            <div class="flex items-center">
+              <input type="checkbox" id="legal" class="mr-2">
+              <label for="legal">I agree to the legal terms (selling my soul)</label>
+            </div>
+            <div class="flex items-center">
+              <input type="checkbox" id="terms" class="mr-2">
+              <label for="terms">I agree to the terms and conditions (i am your slave from this very moment)</label>
+            </div>
+            <button type="submit" class="w-full bg-yellow-400 text-blue-900 font-bold py-2 rounded hover:bg-yellow-300">🎰 Join Now</button>
+          </form>
+        </div>
+        <script src="login.js"></script>
+
+      </body>
+      
+<footer>
+    <p>&copy; 2025 Eziz Casino. No Rights Reserved.</p>
+</footer>
+</html>
