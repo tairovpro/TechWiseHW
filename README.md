@@ -1,2 +1,2 @@
 # TechWiseHW
-Homeworks for techies
+BlackJack
