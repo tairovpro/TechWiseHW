@@ -1,0 +1,61 @@
+/* Root Variables (Theme Colors, Fonts, etc.) */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f5f5f5;
+}
+
+/* Basic Body Styling */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for Layout */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Global Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+/* Header & Footer Styling */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
